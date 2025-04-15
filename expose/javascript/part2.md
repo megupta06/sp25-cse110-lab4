@@ -48,11 +48,16 @@
      F. true. Boolean(2) returns true, and both sides are already booleans and equal, so the strict comparison is true.
      
 15.  The == operator compares values after converting them to a common type, so it allows type coercion. The === operator compares both value and type without converting, making it stricter and more predictable.
+    
 17.  The result will be [2, 4, 6]. The modifyArray function loops through [1, 2, 3], applying the doSomething callback (which multiplies each number by 2). So, it returns a new array with doubled values: [2, 4, 6]
+    
 19.  Output:
      1
+     
      4
+     
      3
+     
      2
     
 
