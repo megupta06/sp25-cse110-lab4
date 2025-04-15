@@ -18,20 +18,35 @@
      D. student["Favorite Teacher"].name
      
      E. student.courseLoad[0]
-14.  A.
+     
+14.  A. '32' because + operator with a string causes string concatenation.
+    
+     B. 1 because - operator uses numeric coercion.
+     
+     C. 3 because null maps to 0.
+     
+     D. '3null' because + operator with a string causes string concatenation.
+     
+     E. 4 because true maps to 1.
+     
+     F. 0 because false and null both map to 0.
+     
+     G. '3undefined' because + operator with a string causes string concatenation.
+     
+     H. NaN because - operator uses numeric coercion, '3' becomes 3 and undefined is not converted to number.
+     
+16.  A.
+    
      B.
+     
      C.
+     
      D.
+     
      E.
+     
      F.
-     G.
-     H.
-15.  A.
-     B.
-     C.
-     D.
-     E.
-     F.
-16.
+     
+18.
     
 
