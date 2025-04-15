@@ -19,7 +19,7 @@
      
      E. student.courseLoad[0]
      
-14.  A. '32' because + operator with a string causes string concatenation.
+13.  A. '32' because + operator with a string causes string concatenation.
     
      B. 1 because - operator uses numeric coercion.
      
@@ -35,18 +35,18 @@
      
      H. NaN because - operator uses numeric coercion, '3' becomes 3 and undefined is not converted to number.
      
-16.  A.
+14.  A. true. '2' is coerced to the number 2, and 2 > 1 is true.
     
-     B.
+     B. false. This is a string comparison, and '2' is greater than '1' so false.
      
-     C.
+     C. true. The == operator performs type coercion, converting '2' to 2, so 2 == 2.
      
-     D.
+     D. false. === checks for strict equality, so it does not coerce types. 2 is not equal to '2' 
      
-     E.
+     E. false.  true maps to 1, so the comparison becomes 1 == 2, which is false.
      
-     F.
+     F. true. Boolean(2) returns true, and both sides are already booleans and equal, so the strict comparison is true.
      
-18.
+15.  The == operator compares values after converting them to a common type, so it allows type coercion. The === operator compares both value and type without converting, making it stricter and more predictable.
     
 
