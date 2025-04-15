@@ -51,7 +51,7 @@
 16.  (js file)
     
 17.  The result will be [2, 4, 6]. The modifyArray function loops through [1, 2, 3], applying the doSomething callback (which multiplies each number by 2). So, it returns a new array with doubled values: [2, 4, 6]
-18.  (js file)
+18.  [part2-question18.js](expose/javascript/part2-question18.js)
     
 19.  Output:
     
