@@ -10,11 +10,15 @@
 10.  It will output 3 because length is just length of prices and it is declared using const.
 11.  The function returns [50,100,150] as the function applies discount of 50% to each price in prices ans stores them in discounted.
 12.  A. student.name
+    
      B. student["Grad Year"]
+     
      C. student.greeting()
+     
      D. student["Favorite Teacher"].name
+     
      E. student.courseLoad[0]
-13.  A.
+14.  A.
      B.
      C.
      D.
@@ -22,12 +26,12 @@
      F.
      G.
      H.
-14.  A.
+15.  A.
      B.
      C.
      D.
      E.
      F.
-15.
+16.
     
 
