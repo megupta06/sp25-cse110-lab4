@@ -1,1 +1,2 @@
-
+1. The bug was that it was treating num1 and num2 as string srather than number that is why for example of num1 was 3 and num2 was 2 the code was referring it to as "3" and "2" and hence string concatenation was giving the result as "32". It was sum of strings that we were getting.
+2. I fixed the code by converting num1 and num2 to numbers. I used Number() to do so and it fixed the issue as now num1, num2 were being treated as numbers rather than strings.
